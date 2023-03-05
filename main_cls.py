@@ -59,6 +59,16 @@ class Gendalf(Character):
         self.name = 'Gendalf'
         self.exp = 45
 
+class somebody(Character):
+    def __init__(self):
+        super().__init__()
+        self.attack = 19
+        self.health = 456
+        self.max_health = 4560
+        self.name = 'Gendalf'
+        self.exp = 4567
+
+
 class Cyclops(Character):
     def __init__(self):
         super().__init__()
